@@ -136,7 +136,7 @@
         <!--Show View Controller-->
         <scene sceneID="u1v-vG-zLR">
             <objects>
-                <viewController storyboardIdentifier="InformationViewController" id="f2O-CR-rON" customClass="ShowViewController" customModule="CurrencyConverter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InformationViewController" id="f2O-CR-rON" customClass="ShowViewController" customModule="UserDefaultsDemo" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xti-yO-OGS"/>
                         <viewControllerLayoutGuide type="bottom" id="S2H-LP-Vfq"/>
