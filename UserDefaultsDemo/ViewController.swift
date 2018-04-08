@@ -24,6 +24,12 @@ class ViewController: UIViewController {
         lastNameTextField.text = userDefaults.object(forKey: "LastName") as? String
         ageTextField.text = userDefaults.object(forKey: "Age") as? String
         
+        if ((firstNameTextField.text?.isEmpty)!&&(lastNameTextField.text?.isEmpty)!&&(ageTextField.text?.isEmpty)!){
+        firstNameTextField.text = "Is Empty"
+        lastNameTextField.text = "IS Empty"
+        ageTextField.text = "Is Empty"
+        }
+        userDefaults.synchronize()
     }
     
     @IBAction func saveButtonWasPressed(_ sender: UIButton) {
